@@ -1,0 +1,154 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #efefef;
+    font-family: sans-serif;
+}
+.profile-img{
+    width: 40%;
+    float: right;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+}
+.about{
+    margin-left: 15px;
+}
+.profile-info{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+/* .profile-info::-webkit-scrollbar{
+width: 0;
+} */
+.profile-info h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.social-media ul li{
+   display: inline-block;
+}
+.social-media ul li i{
+    background:#576574 ;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.profile-info h2{
+    margin-top: 5%;
+    
+}
+.profile-info h2{
+   margin-top: 50px;
+   margin-bottom: 15px;
+}
+.expertise img{
+    height: auto;
+    margin: 2px;
+    padding-bottom: 5px;
+    width: 100px;
+}
+.expertise{
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37,73,0,18);
+    background: #fff;
+    text-align: justify;
+}
+#main{
+    width: 100%;
+    height: auto;
+    background-color: ;
+    text-align: center;
+}
+.Projects img{
+    width: 30%;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.form-box{
+margin-top: 30px;
+}
+.input-group input{
+    width: 45%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+    background: #fff;
+}
+.text-area textarea{
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+    background: #fff;
+}
+.submit-btn{
+    
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px;
+    margin: 2%;
+    display: inline-block;
+    background: #2ab0ff;
+    p
+    cursor: pointer;
+    color: #fff;
+}
+.contact img{
+    width: 20px;
+    margin: -5% 10px;
+}
+.contact span{
+    margin: 2%;
+}
+.contact{
+    margin: 5% 0 5% 25%;
+    width: 65%;
+}
+.copyright{
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:900px)
+{
+    .profile-info{
+        width: 100%;
+        overflow: inherit;
+    }
+    .profile-img{
+        width: 100%;
+    }
+    .expertise{
+        width: 95%;
+        margin-bottom: 10%;
+    }
+    .expertise img{
+        height: 8%;
+        margin: 10px 0;
+    }
+    .Projects img{
+        width: 47%;
+    }
+    span{
+        display: block;
+    }
+}
+
